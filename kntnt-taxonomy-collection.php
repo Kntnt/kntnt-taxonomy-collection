@@ -45,7 +45,7 @@ class Taxonomy {
 		return [
 
 			// A short descriptive summary of what the taxonomy is for.
-			'description' => _x( 'Collections is a taxonomy used as post metadata. Its terms denote a collection of posts, for instance an article serie. All posts that share a term form a collection.', 'Description', 'kntnt-taxonomy-collection' ),
+			'description' => _x( 'Collections is a taxonomy used as post metadata. Its terms denote a collection of posts, for instance an article series. All posts that share a term form a collection.', 'Description', 'kntnt-taxonomy-collection' ),
 
 			// Whether the taxonomy is hierarchical.
 			'hierarchical' => false,
