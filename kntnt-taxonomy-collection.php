@@ -6,7 +6,7 @@
  * Plugin Name:       Kntnt Collection Taxonomy
  * Plugin URI:        https://www.kntnt.com/
  * Description:       Provides the `collection` taxonomy used to create an archive of posts that are part of a series, theme, or similar.
- * Version:           1.1.1
+ * Version:           1.1.2
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
@@ -45,7 +45,7 @@ class Taxonomy {
 		return [
 
 			// A short descriptive summary of what the taxonomy is for.
-			'description' => _x( 'Used to create an archive of posts that are part of a series, theme, or similar.', 'Description', 'kntnt-taxonomy-collection' ),
+			'description' => _x( 'All posts that share a term form a collection of articles (e.g. a article series).', 'Description', 'kntnt-taxonomy-collection' ),
 
 			// Whether the taxonomy is hierarchical.
 			'hierarchical' => false,
