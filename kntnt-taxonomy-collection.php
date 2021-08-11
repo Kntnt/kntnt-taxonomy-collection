@@ -6,7 +6,7 @@
  * Plugin Name:       Kntnt Collection Taxonomy
  * Plugin URI:        https://www.kntnt.com/
  * Description:       Provides the `collection` taxonomy used to create an archive of posts that are part of a series, theme, or similar.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
@@ -137,7 +137,7 @@ class Taxonomy {
 				'items_list_navigation' => _x( 'Collections list navigation', 'Items list navigation', 'kntnt-taxonomy-collection' ),
 				'items_list' => _x( 'Items list', 'Collections list', 'kntnt-taxonomy-collection' ),
 				'most_used' => _x( 'Most used', 'Most used', 'kntnt-taxonomy-collection' ),
-				'back_to_items' => _x( 'Back to collection§s', 'Back to items', 'kntnt-taxonomy-collection' ),
+				'back_to_items' => _x( 'Back to collections', 'Back to items', 'kntnt-taxonomy-collection' ),
 			],
 
 		];
